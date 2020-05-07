@@ -1,0 +1,13 @@
+C:\Users\Carlos Castiblanco\source\repos\G10-F4-StebanOsorio\G10-F4-StebanOsorio\bin\Debug\netcoreapp3.1\G10-F4-StebanOsorio.exe
+C:\Users\Carlos Castiblanco\source\repos\G10-F4-StebanOsorio\G10-F4-StebanOsorio\bin\Debug\netcoreapp3.1\G10-F4-StebanOsorio.deps.json
+C:\Users\Carlos Castiblanco\source\repos\G10-F4-StebanOsorio\G10-F4-StebanOsorio\bin\Debug\netcoreapp3.1\G10-F4-StebanOsorio.runtimeconfig.json
+C:\Users\Carlos Castiblanco\source\repos\G10-F4-StebanOsorio\G10-F4-StebanOsorio\bin\Debug\netcoreapp3.1\G10-F4-StebanOsorio.runtimeconfig.dev.json
+C:\Users\Carlos Castiblanco\source\repos\G10-F4-StebanOsorio\G10-F4-StebanOsorio\bin\Debug\netcoreapp3.1\G10-F4-StebanOsorio.dll
+C:\Users\Carlos Castiblanco\source\repos\G10-F4-StebanOsorio\G10-F4-StebanOsorio\bin\Debug\netcoreapp3.1\G10-F4-StebanOsorio.pdb
+C:\Users\Carlos Castiblanco\source\repos\G10-F4-StebanOsorio\G10-F4-StebanOsorio\obj\Debug\netcoreapp3.1\G10-F4-StebanOsorio.csprojAssemblyReference.cache
+C:\Users\Carlos Castiblanco\source\repos\G10-F4-StebanOsorio\G10-F4-StebanOsorio\obj\Debug\netcoreapp3.1\G10-F4-StebanOsorio.csproj.CoreCompileInputs.cache
+C:\Users\Carlos Castiblanco\source\repos\G10-F4-StebanOsorio\G10-F4-StebanOsorio\obj\Debug\netcoreapp3.1\G10-F4-StebanOsorio.AssemblyInfoInputs.cache
+C:\Users\Carlos Castiblanco\source\repos\G10-F4-StebanOsorio\G10-F4-StebanOsorio\obj\Debug\netcoreapp3.1\G10-F4-StebanOsorio.AssemblyInfo.cs
+C:\Users\Carlos Castiblanco\source\repos\G10-F4-StebanOsorio\G10-F4-StebanOsorio\obj\Debug\netcoreapp3.1\G10-F4-StebanOsorio.dll
+C:\Users\Carlos Castiblanco\source\repos\G10-F4-StebanOsorio\G10-F4-StebanOsorio\obj\Debug\netcoreapp3.1\G10-F4-StebanOsorio.pdb
+C:\Users\Carlos Castiblanco\source\repos\G10-F4-StebanOsorio\G10-F4-StebanOsorio\obj\Debug\netcoreapp3.1\G10-F4-StebanOsorio.genruntimeconfig.cache

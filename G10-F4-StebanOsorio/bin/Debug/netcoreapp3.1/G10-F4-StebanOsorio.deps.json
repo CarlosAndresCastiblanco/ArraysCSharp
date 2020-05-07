@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "G10-F4-StebanOsorio/1.0.0": {
+        "runtime": {
+          "G10-F4-StebanOsorio.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "G10-F4-StebanOsorio/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
