@@ -31,11 +31,24 @@ namespace G10_F4_StebanOsorio
                         Console.WriteLine(info.mensajeParticipantes);
                         int indentificacion = Convert.ToInt32(Console.ReadLine());
                         string nombre = Console.ReadLine();
+                        int validate = 0;
+                        for (int i = 0; i < listParticipantes.Count; i++)
+                        {
+                            if (listParticipantes[i].identificacion == indentificacion)
+                            {
+                                Console.WriteLine(info.errorBuscarParticipante);
+                                validate++;
+                                break;
+                            }
+                        }
                         int categoriaParticipante = Convert.ToInt32(Console.ReadLine());
                         participantes.setIdentificacion(indentificacion);
                         participantes.setNombre(nombre);
                         participantes.setCategoria(categoriaParticipante);
-                        listParticipantes.Add(participantes);
+                        if (validate == 0)
+                        {
+                            listParticipantes.Add(participantes);
+                        }
                     }
                     else if (opcion == 2)
                     {
@@ -73,6 +86,34 @@ namespace G10_F4_StebanOsorio
 
                     } else {
                         Console.WriteLine(info.mensajeError);
+                    }
+                }else if (menu == 3){
+                    Console.WriteLine(info.formaDeUsoConsulta);
+                    Console.WriteLine(info.menuConsulta);
+                    string nombreCategoria = Console.ReadLine();
+                    int numeroCategoriasEncontradas = 0;
+                    for (int i = 0; i < listCategoria.Count; i++)
+                    {
+                        if (nombreCategoria == listCategoria[i].nombreCategoria)
+                        {
+                            Console.WriteLine(info.exitoConsulta);
+                            Console.WriteLine(listCategoria[i].nombreCategoria + " "
+                           + listCategoria[i].valorPremio);
+                            Console.WriteLine(info.menuModificacion);
+                            string opcionModificacion = Console.ReadLine();
+                            if (opcionModificacion == "S")
+                            {
+                                Console.WriteLine(info.mensajeMonto);
+                                double valorPremio = Convert.ToDouble(Console.ReadLine());
+                                listCategoria[i].valorPremio = valorPremio;
+                            }
+                            numeroCategoriasEncontradas++;
+                            break;
+                        }
+                    }
+                    if (numeroCategoriasEncontradas == 0)
+                    {
+                        Console.WriteLine(info.errorConsulta);
                     }
                 } else {
                     Console.WriteLine(info.mensajeError);
